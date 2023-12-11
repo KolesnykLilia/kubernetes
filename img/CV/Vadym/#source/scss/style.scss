@@ -1,0 +1,185 @@
+// Файл який обнуляє стилі
+@import "nullstule.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+	width: 1280px;
+	height: 1965px;
+	background-color: #f5f7fa;
+	padding: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bg-white {
+	width: 1200px;
+	height: 1319px;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+	background-color: #ffffff;
+}
+.aside {
+	width: 370px;
+	height: 1319px;
+	background-color: #1e2939;
+	float: left;
+	img{
+		width: 100%;
+		margin: 40px 0 57px 0;
+	}	
+	&__text {
+		padding: 0 0 0 40px;
+
+		li{
+		color: #ffffff;
+		line-height: 24px;
+		letter-spacing: 0.42px;
+
+		padding: 0px 0 0px 10px;
+		background: url('../img/icon/Эллипс_1.png') left 10px no-repeat;
+		}
+
+	}
+	&__contacts {
+		padding: 0 0 54px 0;
+
+		.aside_number {
+		color: #ffffff;
+		line-height: 24px;
+		font-weight: 700;
+		letter-spacing: 0.42px;
+		}
+		.aside_number a{
+		color: #fff;
+		opacity: 0.5;
+		line-height: 24px;
+		letter-spacing: 0.42px;
+		margin: 0 0 0 10px;
+		font-weight: 400;
+		}
+		.aside_mail {
+		color: #ffffff;
+		line-height: 24px;
+		font-weight: 700;
+		letter-spacing: 0.42px;
+		}
+		.aside_mail a{
+		color: #fff;
+		opacity: 0.5;
+		line-height: 24px;
+		text-decoration: underline;
+		letter-spacing: 0.42px;
+		margin: 0 0 0 10px;
+		font-weight: 400;
+		}
+	}
+	&__title {
+		color: #fff;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 24px;
+		padding: 0 0 20px 0;
+	}
+	&__tech-skills {
+		padding: 0 0 52px 0;	
+	}
+	&__soft-skills {
+		padding: 0 0 54px 0;
+	}
+}
+
+
+.content {
+	float: left;
+	width: 552px;
+	padding: 107px 0 0 87px;
+
+	h2{
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 24px;
+	}
+}
+.top-text {
+	margin: 0 0 64px 0;
+	h3{
+		font-weight: 700;
+		line-height: 24px;
+		letter-spacing: 0.42px;
+	}
+	h1{
+		font-size: 45px;
+		font-weight: 700;
+		line-height: 89px;
+	}
+	.subtext {
+		color: #595959;
+		line-height: 24px;
+		letter-spacing: 0.42px;
+	}
+}
+
+.project {
+	margin: 0 0 52px 0;
+	li{
+		letter-spacing: 0.42px;
+		font-weight: 700;
+		margin: 0 0 0 18px;
+		padding: 0 0 0 4px;
+	}
+	a{
+		margin: 10px 0 0 0;
+		font-weight: 400;
+		color: #595959;
+		display: inline-block;
+		width: 300px;
+		border-bottom: 1px dotted #a8a8a8;
+	}
+	span{
+		font-weight: 400;
+	}
+}
+.work-experience {
+	margin: 0 0 55px 0;
+
+	li{
+		line-height: 24px;
+		letter-spacing: 0.42px;
+		background: url('../img/icon/Эллипс_2.png') left 10px no-repeat;
+		padding: 0px 0px 0px 10px;
+		}
+	&__block {
+		margin: 20px 0 0 0;
+	}
+}
+.subtitle {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.48px;
+}
+.subtitle span{
+	color: #ff6b08;
+}
+.small-gray{	
+	font-size: 12px;
+	color: #a8a8a8;
+	line-height: 24px;
+	letter-spacing: 0.36px;
+}
+.small-gray span{
+	color: #000000;
+}
+.education {
+	&__subtitle {
+		color: #ff6b08;
+		font-weight: 700;
+		letter-spacing: 0.42px;
+		line-height: 24px;
+		margin: 14px 0 0 0;
+	}
+	h3{
+		font-weight: 700;
+		margin: 8px 0 0 0;
+	}
+	.small-gray{
+		margin: 8px 0 0 0;
+	}
+}

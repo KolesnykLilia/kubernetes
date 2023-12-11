@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: project-team-master-ingress
+spec:
+  rules:
+    - host: project-team-master.local
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: project-team-master-service
+                port:
+                  number: 80

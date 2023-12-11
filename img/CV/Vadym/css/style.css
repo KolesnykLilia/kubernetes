@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+/*--------------------*/
+body {
+  width: 1280px;
+  height: 1965px;
+  background-color: #f5f7fa;
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif; }
+
+.bg-white {
+  width: 1200px;
+  height: 1319px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff; }
+
+.aside {
+  width: 370px;
+  height: 1319px;
+  background-color: #1e2939;
+  float: left; }
+  .aside img {
+    width: 100%;
+    margin: 40px 0 57px 0; }
+  .aside__text {
+    padding: 0 0 0 40px; }
+    .aside__text li {
+      color: #ffffff;
+      line-height: 24px;
+      letter-spacing: 0.42px;
+      padding: 0px 0 0px 10px;
+      background: url("../img/icon/Эллипс_1.png") left 10px no-repeat; }
+  .aside__contacts {
+    padding: 0 0 54px 0; }
+    .aside__contacts .aside_number {
+      color: #ffffff;
+      line-height: 24px;
+      font-weight: 700;
+      letter-spacing: 0.42px; }
+    .aside__contacts .aside_number a {
+      color: #fff;
+      opacity: 0.5;
+      line-height: 24px;
+      letter-spacing: 0.42px;
+      margin: 0 0 0 10px;
+      font-weight: 400; }
+    .aside__contacts .aside_mail {
+      color: #ffffff;
+      line-height: 24px;
+      font-weight: 700;
+      letter-spacing: 0.42px; }
+    .aside__contacts .aside_mail a {
+      color: #fff;
+      opacity: 0.5;
+      line-height: 24px;
+      text-decoration: underline;
+      letter-spacing: 0.42px;
+      margin: 0 0 0 10px;
+      font-weight: 400; }
+  .aside__title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 0 0 20px 0; }
+  .aside__tech-skills {
+    padding: 0 0 52px 0; }
+  .aside__soft-skills {
+    padding: 0 0 54px 0; }
+
+.content {
+  float: left;
+  width: 552px;
+  padding: 107px 0 0 87px; }
+  .content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px; }
+
+.top-text {
+  margin: 0 0 64px 0; }
+  .top-text h3 {
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.42px; }
+  .top-text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px; }
+  .top-text .subtext {
+    color: #595959;
+    line-height: 24px;
+    letter-spacing: 0.42px; }
+
+.project {
+  margin: 0 0 52px 0; }
+  .project li {
+    letter-spacing: 0.42px;
+    font-weight: 700;
+    margin: 0 0 0 18px;
+    padding: 0 0 0 4px; }
+  .project a {
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    color: #595959;
+    display: inline-block;
+    width: 300px;
+    border-bottom: 1px dotted #a8a8a8; }
+  .project span {
+    font-weight: 400; }
+
+.work-experience {
+  margin: 0 0 55px 0; }
+  .work-experience li {
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    background: url("../img/icon/Эллипс_2.png") left 10px no-repeat;
+    padding: 0px 0px 0px 10px; }
+  .work-experience__block {
+    margin: 20px 0 0 0; }
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.48px; }
+
+.subtitle span {
+  color: #ff6b08; }
+
+.small-gray {
+  font-size: 12px;
+  color: #a8a8a8;
+  line-height: 24px;
+  letter-spacing: 0.36px; }
+
+.small-gray span {
+  color: #000000; }
+
+.education__subtitle {
+  color: #ff6b08;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  margin: 14px 0 0 0; }
+.education h3 {
+  font-weight: 700;
+  margin: 8px 0 0 0; }
+.education .small-gray {
+  margin: 8px 0 0 0; }
+
+/*# sourceMappingURL=style.css.map */

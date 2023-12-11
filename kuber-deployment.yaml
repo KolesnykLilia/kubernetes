@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project-team-master
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: project-team-master
+  template:
+    metadata:
+      labels:
+        app: project-team-master
+    spec:
+      containers:
+      - name: project-team-master
+        image: lolgg/project-team-master:latest
+        ports:
+        - containerPort: 80
